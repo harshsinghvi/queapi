@@ -14,9 +14,10 @@
 
 <body style="text-align:center;" id="body">
 <script>
-    const URL="https://stackapi.vercel.app";
+    //const URL="https://queapi.vercel.app";
+    const URL="http://localhost:5000";
     async function main(){
-        var url = URL+"/stack";
+        var url = URL+"/que";
         const response = await fetch(url);
         var data = await response.json();
         document.getElementById("size").innerHTML="size = "+data['size'];
@@ -31,18 +32,19 @@
         setTimeout(500);
     }
     main();
-    async function push(){
-        var url = URL+"/push?data="+push_data.value;
+    async function put(){
+        var url = URL+"/put?data="+push_data.value;
         const response = await fetch(url);
         var data = await response.json();
         setTimeout(1500);
         document.getElementById("result").innerHTML= JSON.stringify(data) + " " + response.status;
+        document.getElementById("push_data").value = "";
         console.log(data);
         main();
     }
 
-    async function pop(){
-        var url = URL+"/pop";
+    async function get(){
+        var url = URL+"/get";
         const response = await fetch(url);
         var data = await response.json();
         setTimeout(1500);
@@ -54,13 +56,13 @@
     setInterval(main,2000)
 </script>
 
-    <h1 style="color:#0366D6;">StackApi</h1>
+    <h1 style="color:#0366D6;">QueApi</h1>
     <p> 
         <!-- Making a text input -->
         <input type="text" id="push_data" placeholder="Push Data">       
         <!-- Button to send data -->
-        <button onclick="push()">🔼Push</button> 
-        <button onclick="pop()"> 🔽Pop </button> <br><br> 
+        <button onclick="put()">🔼Put</button> 
+        <button onclick="get()"> 🔽Get</button> <br><br> 
         <!-- For printing result from server -->
         <p id="result" style="color:green"> </p> 
     </p>
