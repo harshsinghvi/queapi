@@ -1,6 +1,6 @@
 # [QueAPI](https://queapi.projects.harshsinghvi.com/)
 
-> Que Implementation Using API in Python.
+Que Implementation Using API in Python.
 
 ## Check out Latest Production Version [https://queapi.vercel.app](https://queapi.vercel.app) (Using Serverless Functions and MongoDB).
 
