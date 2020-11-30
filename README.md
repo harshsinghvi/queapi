@@ -1,10 +1,10 @@
-[<center><h1 style="color:green;font-size: 500%;">QueApi</h1></center>](https://stackapi.projects.harshsinghvi.com/)
+[<center><h1 style="color:green;font-size: 500%;">QueApi</h1></center>](https://queapi.projects.harshsinghvi.com/)
 
 # QueAPI
 
 Que Implementation Using API in Python.
 
-## Check out Latest Production Version [https://stackapi.vercel.app](https://stackapi.vercel.app) (Using Serverless Functions and MongoDB).
+## Check out Latest Production Version [https://queapi.vercel.app](https://queapi.vercel.app) (Using Serverless Functions and MongoDB).
 
 By the time try this [https://queapi-app.herokuapp.com/](https://queapi-app.herokuapp.com/) (Old with some Bugs).
 
