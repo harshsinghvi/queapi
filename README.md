@@ -2,6 +2,8 @@
  <a href="https://queapi.projects.harshsinghvi.com/"><h1 style="color:green;font-size: 500%;">QueApi</h1></a>
 </p>
 
+<p align="center">This is a centered caption for the image<p align="center">
+
 # QueAPI
 
 Que Implementation Using API in Python.
