@@ -33,7 +33,7 @@ class Que:
     def put(self,newElement=""):
         self._que['data'].append(newElement)
         self._data_validate()
-        return 0
+        return newElement
 
     def empty_que(self):
         self._que["data"]=[]
