@@ -1,5 +1,6 @@
-<a href="https://queapi.projects.harshsinghvi.com/"><center><h1 style="color:green;font-size: 500%;">QueApi</h1></center></a>
-
+<p align="center">
+ <a href="https://queapi.projects.harshsinghvi.com/"><h1 style="color:green;font-size: 500%;">QueApi</h1></a>
+</p>
 # QueAPI
 
 Que Implementation Using API in Python.
