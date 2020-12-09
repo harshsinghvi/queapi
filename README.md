@@ -31,6 +31,20 @@ Que Implementation Using API in Python.
 | `GET /get`      | `None`         | Json         | POP the element in the Que.      |
 | `GET /put`      | `data`         | Json         | PUSH an element in the Que (`/push?data=<element>`). |
 
+## Usage
+
+* Clone the repo `git clone https://github.com/harshsinghvi/stackapi && cd stackapi`
+* Edit `sample.config.py`
+
+  - Change the mongo MONGO_DB_URI
+  - Rename to *`config.py`*
+  - `mv sample.config.py config.py`
+
+* Install depndencies `pip install -r requirements.txt`
+* Run flask server `python index.py`
+
+> __[Optional]__ To deploy it to vercel using serverless functions Install **Vercel cli** and deploy to production by running `vercel --prod`.
+
 ## ✨ Features
 
 * Serverless
